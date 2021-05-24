@@ -114,3 +114,17 @@ body{
 .freee{
     background: rgb(26, 177, 26);
 }
+.twenty1{
+    background: rgb(62, 233, 10);
+    float: right;
+    padding: 15px;
+    margin: 15px;
+    width: 45%;
+}
+.twenty2{
+    background: rgb(9, 214, 9);
+    float: left;
+    padding: 15px;
+    margin: 15px;
+    width: 45%;
+}
