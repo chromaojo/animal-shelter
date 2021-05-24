@@ -1,0 +1,93 @@
+body{
+    padding: 10px;
+    margin: 10px;
+}
+.menu-bar {
+    background: rgb(red, green, rgb(255, 255, 255));
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li
+{
+    width: 120;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: wavy;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+    background: coral;
+    border-radius: 3px;
+}
+.menu-bar .fa
+{
+    margin-right: 8px;
+}
+.sub-menu
+{
+    display: none;
+}
+.active, .menu-bar ul li:hover .sub-menu
+{
+    display: block;
+    position: absolute;
+    background: rgb(50, 171, 241);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.active, .menu-bar ul li:hover .sub-menu ul
+{
+    display: block;
+    margin: 10px;
+}
+.active, .menu-bar ul li:hover .sub-menu ul li
+{
+    width: 150px;
+    padding: 10px;
+    background: transparent;
+    border-bottom: 1px dotted #fff;
+    border-radius: 0%;
+    text-align: left;
+}
+.active, .menu-bar ul li:hover .sub-menu ul li:last-child
+{
+    border-bottom: none;
+}
+
+.sub-menu2
+{
+    display: none;
+}
+.hover-my:hover .sub-menu2
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color: rgb(18, 142, 243);
+}
+.fix {
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+}
+.goat{
+    padding: 20px;
+    margin: 30px;
+}
+.goattext {
+    color: white;
+}
+.myimages {
+    margin: 40px;
+}
